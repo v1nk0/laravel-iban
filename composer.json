@@ -1,0 +1,29 @@
+{
+    "name": "v1nk0/laravel-iban",
+    "description": "",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Vincent Sebastiaan Kooijman",
+            "email": "info@vincentkooijman.at",
+            "homepage": "https://www.vincentkooijman.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "globalcitizen/php-iban": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "V1nk0\\LaravelIban\\": "src/"
+        },
+        "classmap": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "V1nk0\\LaravelIban\\Providers\\PackageServiceProvider"
+            ]
+        }
+    }
+}
